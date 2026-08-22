@@ -1,1 +1,262 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .card {
+            background: #1e293b;
+            border-radius: 16px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        }
+        .icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            object-fit: cover;
+        }
+        .info {
+            flex: 1;
+        }
+        .info h2 {
+            margin: 0 0 6px 0;
+            font-size: 1.1rem;
+        }
+        .info p {
+            margin: 0 0 12px 0;
+            font-size: 0.85rem;
+            color: #94a3b8;
+            line-height: 1.4;
+        }
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>App Portfolio</h1>
+    <div class="container">
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/29/b3/7229b37c-9581-5bf1-d986-4ab0d8333d88/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg" alt="バズ・スナイパー with ロックチワワ" class="icon">
+            <div class="info">
+                <h2>バズ・スナイパー with ロックチワワ</h2>
+                <p>おい、お前!いつまでそんな弱小アカウントで満足してんだ?
+バズ・スナイパー with ロックチワワは、SNSで本気でバズりたい、フォロワーを爆増させたいクリエイターのための激辛・動画分析ツールだ。
+可...</p>
+                <a href="https://apps.apple.com/us/app/%E3%83%90%E3%82%BA-%E3%82%B9%E3%83%8A%E3%82%A4%E3%83%91%E3%83%BC-with-%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%83%AF%E3%83%AF/id6769605118?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/5a/ca/275aca99-91a6-5fee-9eca-0077016b81da/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="フリマ出品AI" class="icon">
+            <div class="info">
+                <h2>フリマ出品AI</h2>
+                <p>【出品の面倒、AIがすべて解決！】
+写真を1枚撮るだけで、メルカリやフリマサイトに最適な「売れる説明文」と「予測相場」をAIが10秒で自動生成。
+文字入力の手間をゼロにして、不用品を最速でお金に変えま...</p>
+                <a href="https://apps.apple.com/us/app/%E3%83%95%E3%83%AA%E3%83%9E%E5%87%BA%E5%93%81ai/id6760327868?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/11/9c/58119cbc-2fd2-512e-f3bb-8afab81d25e0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="Rugged Scan" class="icon">
+            <div class="info">
+                <h2>Rugged Scan</h2>
+                <p>【SNSで話題！】愛犬の「歩き方」や「しぐさ」、本当に大丈夫？
+スマホで撮影するだけで、愛犬のわずかな変化を可視化する革新的なペットヘルスケアアプリ『RUGGED SCAN』が登場！
+「最近、お散歩で...</p>
+                <a href="https://apps.apple.com/us/app/rugged-scan/id6770949111?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/44/21/56442170-4d55-c1cf-22d2-76977d318176/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="RoutePump" class="icon">
+            <div class="info">
+                <h2>RoutePump</h2>
+                <p>パッと計算、サッと出発。ガソリン代計算の決定版「RoutePump」
+
+「目的地までガソリン代いくら？」
+RoutePump（ルートポンプ）は、そんな疑問をわずか数秒で解決するドライブサポートアプリで...</p>
+                <a href="https://apps.apple.com/us/app/routepump/id6758928209?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/d8/3a/c2d83a50-eaa6-9d4d-8aeb-3b6616603095/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="FIELD JOURNAL: GUT" class="icon">
+            <div class="info">
+                <h2>FIELD JOURNAL: GUT</h2>
+                <p>FIELD JOURNAL: GUT（フィールドジャーナル・ガット）は、愛犬や愛猫の毎日の健康状態、とりわけ重要とされる gastrointestinal（胃腸・消化器）の安定性を、高度な視覚的形態学...</p>
+                <a href="https://apps.apple.com/us/app/field-journal-gut/id6774575016?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/14/da/cd14daa5-7150-7911-e92e-6fdea7a701c2/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="Cyan-Trace" class="icon">
+            <div class="info">
+                <h2>Cyan-Trace</h2>
+                <p>Turn your site photos into professional evidence instantly.
+
+Cyan-Trace is the ultimate productivity...</p>
+                <a href="https://apps.apple.com/us/app/cyan-trace/id6766050694?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/ed/29/59ed2915-9fa9-88fc-be15-953fdf3d8188/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="Z-SNR" class="icon">
+            <div class="info">
+                <h2>Z-SNR</h2>
+                <p>"Something smells fishy..."
+
+Z-Sensor is your noir AI detective for the digital age. Don't let scamm...</p>
+                <a href="https://apps.apple.com/us/app/z-snr/id6763991196?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/e0/be/68e0be18-dbc5-0399-92ce-f4c3246a86dc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="BUDDY -返信の相棒-" class="icon">
+            <div class="info">
+                <h2>BUDDY -返信の相棒-</h2>
+                <p>【フリマの交渉、AIに任せて利益を最大化！】
+
+「もっと高く売れたはずなのに、つい値下げに応じてしまった…」
+「コメントの返信を考えるのが面倒で、放置している間に機会を逃した…」
+そんな悩み、**BU...</p>
+                <a href="https://apps.apple.com/us/app/buddy-%E8%BF%94%E4%BF%A1%E3%81%AE%E7%9B%B8%E6%A3%92/id6761680949?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/06/1a/ca061a0c-c18d-03f7-049b-ccff25a95d76/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="MAXIMSENSEI" class="icon">
+            <div class="info">
+                <h2>MAXIMSENSEI</h2>
+                <p>**ありそうでなさそう。だけど刺さる。
+MAXIMSENSEI は、あなたの1日に “ひと言の気づき” を届けるアプリです。**
+毎日、毎週、毎月。  
+あなたが選んだ時間に、MAXIM SENSEI...</p>
+                <a href="https://apps.apple.com/us/app/maximsensei/id6756858983?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/cc/cc/97ccccb6-1b93-1ba7-8a30-a89ef8e677e5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="Bowlard" class="icon">
+            <div class="info">
+                <h2>Bowlard</h2>
+                <p>Bowlard は、ボウリングのスコア計算をベースにしたシンプルで奥深いビリヤードのゲームです。
+残りボールをタップするだけの簡単操作で、誰でもすぐに遊べます。
+
+万年B級レベルの　スペアがほとんどで...</p>
+                <a href="https://apps.apple.com/us/app/bowlard/id6756608776?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/13/30/651330bf-194c-e1f5-7c23-19b5f31645b2/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="MAXIMSENSEI2" class="icon">
+            <div class="info">
+                <h2>MAXIMSENSEI2</h2>
+                <p>MAXIMSENSEI 2 は、 “当たり前すぎること” を、あえて通知してくれるユーモアアプリです。
+
+「そんなの知ってるよ！」  
+「なんでそれ通知するの？」  
+思わずツッコミたくなる “当たり...</p>
+                <a href="https://apps.apple.com/us/app/maximsensei2/id6757728900?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/21/f4/d521f492-9e3e-98ec-2eec-88b834e599db/AppIcon-0-0-85-220-0-1-0-2x-P3.png/512x512bb.png" alt="Stack: Quick Code Cards" class="icon">
+            <div class="info">
+                <h2>Stack: Quick Code Cards</h2>
+                <p>Stack is a minimalist, ultra-fast card-based snippet and note manager built exclusively for develope...</p>
+                <a href="https://apps.apple.com/us/app/stack-quick-code-cards/id6799818624?mt=12&uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/99/17/d69917d2-56a5-80ef-71ad-1b27957e7a4f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="VaultSentry" class="icon">
+            <div class="info">
+                <h2>VaultSentry</h2>
+                <p>[VaultSentry: Complete On-Device Photo Privacy & Metadata Purge Tool]
+
+In the modern digital era, sh...</p>
+                <a href="https://apps.apple.com/us/app/vaultsentry/id6782274135?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/7b/7f/d57b7f1e-e4dd-87db-1984-66e9a9672351/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg" alt="Select-Predator" class="icon">
+            <div class="info">
+                <h2>Select-Predator</h2>
+                <p>Select-Predator is the ultimate AI intelligence tool designed for professionals, entrepreneurs, and ...</p>
+                <a href="https://apps.apple.com/us/app/select-predator/id6794627399?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/59/65/f459650c-c548-c212-0e8e-c27098cbe37b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="Screenshot Predator — Cyber AI" class="icon">
+            <div class="info">
+                <h2>Screenshot Predator — Cyber AI</h2>
+                <p>Transform the way you discover products, places, and objects from your photos and screenshots. Scree...</p>
+                <a href="https://apps.apple.com/us/app/screenshot-predator-cyber-ai/id6793532854?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/80/d4/0b80d498-4c49-efe9-4b36-6bdae4c3c995/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg" alt="TextSnap Pro - Instant OCR" class="icon">
+            <div class="info">
+                <h2>TextSnap Pro - Instant OCR</h2>
+                <p>ARE YOU READY TO UNLOCK THE POWER OF INSTANT TEXT EXTRACTION?
+
+TextSnap Pro is the ultimate, lightni...</p>
+                <a href="https://apps.apple.com/us/app/textsnap-pro-instant-ocr/id6798088958?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/0d/db/c90ddb9e-292c-a3b5-9c28-96329ba69980/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="InstantRender Pro" class="icon">
+            <div class="info">
+                <h2>InstantRender Pro</h2>
+                <p>「これではアルゴリズムに勝てません。」
+あなたの動画が埋もれてしまう理由は、視覚的なフックと最適化されたテンポが欠けているからです。
+
+InstantRender Proは、TikTok、Instag...</p>
+                <a href="https://apps.apple.com/us/app/instantrender-pro/id6780908477?uo=4" target="_blank" class="btn">App Storeで開く</a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
